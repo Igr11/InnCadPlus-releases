@@ -20,6 +20,17 @@ This repository holds the downloads only. Get the latest version from
 - Questions and bug reports: [InCad issues](https://github.com/Igr11/InCad/issues). Attach the log (chapter 11 of
   the manual).
 
+
+## Licenses
+
+InnCad Plus is free to use. Its own code, the [InCad workbench](https://github.com/Igr11/InCad), is open source
+(LGPL 2.1 or later, as FreeCAD). The app bundles open-source components, unmodified as built by conda-forge, each
+under its own license — FreeCAD 1.1.3 (LGPL 2.1+), Open CASCADE (LGPL 2.1), Qt 6 / PySide6 (LGPL 3) and others.
+Each release carries `THIRD-PARTY-NOTICES.txt` (every component, its license text and source) and the source of every
+GPL component. For at least three years we provide, on request, the complete corresponding source of any GPL or LGPL
+component: [ask here](https://github.com/Igr11/InCad/issues). InnCad Plus is an independent project, not made or
+endorsed by the FreeCAD project.
+
 ---
 
 # InnCad Plus — загрузки
@@ -43,3 +54,13 @@ Codex или Gemini CLI), который перестраивает STL в де�
 - Уже работаете во FreeCAD 1.1? Те же инструменты есть в виде верстака: [InCad](https://github.com/Igr11/InCad).
 - Вопросы и сообщения об ошибках: [InCad issues](https://github.com/Igr11/InCad/issues). Приложите журнал (глава 11
   руководства).
+
+## Лицензии
+
+InnCad Plus бесплатен. Его собственный код — [верстак InCad](https://github.com/Igr11/InCad) — открыт (LGPL 2.1 или
+новее, как у FreeCAD). В программе — открытые компоненты без изменений, собранные conda-forge, каждый под своей
+лицензией: FreeCAD 1.1.3 (LGPL 2.1+), Open CASCADE (LGPL 2.1), Qt 6 / PySide6 (LGPL 3) и другие. В каждом выпуске —
+`THIRD-PARTY-NOTICES.txt` (все компоненты, тексты лицензий и исходники) и исходный код всех GPL-компонентов. Не менее
+трёх лет по запросу предоставляем полный исходный код любого GPL- или LGPL-компонента:
+[спросить здесь](https://github.com/Igr11/InCad/issues). InnCad Plus — независимый проект, не связанный с командой
+FreeCAD.
