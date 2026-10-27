@@ -30,7 +30,7 @@ ProstoCAD is free to use. It is built on the [ProstoCAD for FreeCAD workbench](h
 under its own license — FreeCAD 1.1.3 (LGPL 2.1+), Open CASCADE (LGPL 2.1), Qt 6 / PySide6 (LGPL 3) and others.
 Each release carries `THIRD-PARTY-NOTICES.txt` (every component, its license text and source) and the source of every
 GPL component. For at least three years we provide, on request, the complete corresponding source of any GPL or LGPL
-component: [ask here](https://github.com/Igr11/InCad/issues). ProstoCAD is an independent project, not made or
+component: [ask here](https://github.com/Igr11/ProstoCAD/issues). ProstoCAD is an independent project, not made or
 endorsed by the FreeCAD project.
 
 ---
@@ -45,24 +45,24 @@ Codex или Gemini CLI), который перестраивает STL в де�
 
 | Система | Файл | |
 |---|---|---|
-| macOS 13 и новее, Apple Silicon (M1 и новее) | `InnCadPlus-<версия>-macos-arm64.dmg` | Перетащите ProstoCAD.app в «Программы» |
-| Windows 10 / 11, 64 бит (x64) | `InnCadPlus-<версия>-windows-x64.zip` | Portable: установка не нужна. Распакуйте и пользуйтесь |
+| macOS 13 и новее, Apple Silicon (M1 и новее) | `ProstoCAD-<версия>-macos-arm64.dmg` | Перетащите ProstoCAD.app в «Программы» |
+| Windows 10 / 11, 64 бит (x64) | `ProstoCAD-<версия>-windows-x64.zip` | Portable: установка не нужна. Распакуйте и пользуйтесь |
 
 - **Mac, первый запуск:** программа не заверена (notarized) в Apple. Нажмите «Готово» (не «Переместить в Корзину»),
   откройте Системные настройки ▸ Конфиденциальность и безопасность и нажмите **«Всё равно открыть»**, подтвердите
   паролем. Это нужно один раз.
 - **Windows:** распакуйте в короткий путь без кириллицы и запустите `ProstoCAD.exe`.
 - FreeCAD ставить не нужно: движок внутри. Руководства (EN, RU) и «Что нового» приложены к каждому выпуску.
-- Уже работаете во FreeCAD 1.1? Те же инструменты есть в виде верстака: [ProstoCAD for FreeCAD](https://github.com/Igr11/ProstoCAD) (formerly InCad).
+- Уже работаете во FreeCAD 1.1? Те же инструменты есть в виде верстака: [ProstoCAD for FreeCAD](https://github.com/Igr11/ProstoCAD) (прежде InCad).
 - Вопросы и сообщения об ошибках: [ProstoCAD issues](https://github.com/Igr11/ProstoCAD/issues). Приложите журнал (глава 11
   руководства).
 
 ## Лицензии
 
-ProstoCAD бесплатен. Он построен на [верстаке InCad](https://github.com/Igr11/InCad) с открытым кодом (LGPL 2.1 или
+ProstoCAD бесплатен. Он построен на [верстаке ProstoCAD for FreeCAD](https://github.com/Igr11/ProstoCAD) (прежде InCad) с открытым кодом (LGPL 2.1 или
 новее, как у FreeCAD); дополнения Plus (инструменты STL, связь с ИИ) не открыты. В программе — открытые компоненты без изменений, собранные conda-forge, каждый под своей
 лицензией: FreeCAD 1.1.3 (LGPL 2.1+), Open CASCADE (LGPL 2.1), Qt 6 / PySide6 (LGPL 3) и другие. В каждом выпуске —
 `THIRD-PARTY-NOTICES.txt` (все компоненты, тексты лицензий и исходники) и исходный код всех GPL-компонентов. Не менее
 трёх лет по запросу предоставляем полный исходный код любого GPL- или LGPL-компонента:
-[спросить здесь](https://github.com/Igr11/InCad/issues). ProstoCAD — независимый проект, не связанный с командой
+[спросить здесь](https://github.com/Igr11/ProstoCAD/issues). ProstoCAD — независимый проект, не связанный с командой
 FreeCAD.
